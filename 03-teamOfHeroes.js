@@ -11,6 +11,7 @@ function solve(N,K,arr){
   return 'No';
 }
 
+//no need of this block in the masai compiler. 
 function takeInput(){
   const input = require('fs').readFileSync(0, 'utf-8').trim().split('\n');
   let testcases = parseInt(input[0], 10);
